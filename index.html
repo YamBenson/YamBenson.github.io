@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Stock Price Chart</title>
+
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+        <link href="submit.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+        <script src="https://www.amcharts.com/lib/4/core.js"></script>
+        <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+        <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+    </head>
+    <body>
+        <div class="mycontainer">
+        <h3>Stock Price Chart</h3>
+        <p>Unfortunately, sometimes stock prices may not load even if the ticker is correct because the API is limited.</p>
+        <form class="col s12" id="enter">
+          <div class="row">
+            <div class="input-field col s6">
+              <input autocomplete="off" placeholder="Enter Ticker Symbol" id="ticker" type="text"/>
+              <label for="ticker">Search for a Stock</label>
+            </div>
+            <div class="input-field col s6">
+              <button type="submit" class="btn" id="submit">
+              <span>Search</span>
+              </button>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div id="msg">
+          <h4 id="current"></h4>
+          <h4 id="dym"></h4>
+          <p id="r1"></p>
+          <p id="r2"></p>
+          <p id="r3"></p>
+          <p id="r4"></p>
+          <p id="r5"></p>
+        </div>
+        <div id="chartdiv"></div>
+        <script src="submit.js"></script>
+    </body>
+</html>

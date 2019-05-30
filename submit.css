@@ -1,0 +1,23 @@
+body {
+  color: black;
+  background-color: white;
+}
+
+.mycontainer {
+  color: black;
+  text-align: left;
+  width: 60%;
+  margin-left: 2%;
+}
+
+#msg {
+  color: black;
+  text-align: left;
+  width: 60%;
+  margin-left: 2%;
+}
+
+#chartdiv {
+  width: 90%;
+  height: 500px;
+}
