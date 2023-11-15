@@ -12,7 +12,7 @@ submitButton.addEventListener('submit', function(event) {
   symbol = ticker.value;
 
   let part1 = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=";
-  let part2 = "&outputsize=full&apikey=49DEXHFDWAIV6FXX&datatype=csv";
+  let part2 = "&outputsize=full&apikey=N1YPJ33E7L2UQ9AQ&datatype=csv";
 
   let url = part1 + symbol + part2;
 
