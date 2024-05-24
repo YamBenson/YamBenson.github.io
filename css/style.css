@@ -34,7 +34,9 @@ body {
 }
 
 .nav-item {
-  padding: 2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1rem;
 }
 
 .nav-link {
