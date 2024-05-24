@@ -41,10 +41,7 @@ body {
   color: #5b5555!important;
 }
 
-.nav-link.active {
-  color: #000000!important;
-}
-
+.nav-link.active,
 .nav-link:hover {
   color: #000000!important;
 }
